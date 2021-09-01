@@ -1,0 +1,16 @@
+##this tells python what a and b are
+a = 3
+b = 4 
+
+##gets the square root of a and b 
+square_root_of_a = a * .5
+square_root_of_b = b * .5
+
+##gets the value for c squared 
+c_sq = a ** 2 + b **2 
+
+##defines c 
+c = c_sq ** .5
+
+
+print (c)  
