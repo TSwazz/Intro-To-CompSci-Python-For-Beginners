@@ -1,0 +1,12 @@
+##Simple Code example: The first program that you will write for this assignment is a tip calculator.
+##You will receive a value (you can think of it as a price) from input.
+##Your job is to calculate what the 18% tip value would be from this price.
+##You then need to tell the user how much the tip would be in cents.
+##This cent amount will be printed out using print.
+##The example input and output below is a possible test case that will be used to determine if you have correctly written your program.
+##That is, if the input to your program is 1.50, you should receive 27 cents back as the answer.
+##Example Input (to print to screen) : What is the amount? 1.50 Example Output (printed back to screen): 27
+
+cost_of_meal = 1.50
+print (("What is the amount? ") + (str(cost_of_meal)))
+print (str(cost_of_meal) + " dollar meal with an 18% tip means your tip will be " + (str(cost_of_meal * .18 * 100)) + " cents!")
